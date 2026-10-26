@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="assets/img/icon.jpg">
+<title>Shop all fragrances | Pure Scents</title>
+<meta name="description" content="Browse all 258 Pure Scents fragrances by family, gender, note and price. Designer-inspired blends from $9.99, with free pickup in Dearborn and Detroit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="shop">
+<div id="chrome-top"></div>
+
+<main>
+  <header class="shop-head">
+    <div class="wrap">
+      <div class="shop-head-row">
+        <div>
+          <span class="eyebrow">258 scents, six families</span>
+          <h1 style="margin-top:10px">The library</h1>
+        </div>
+        <p class="lede" style="max-width:44ch">Every bottle on the Pure Scents shelf, in one place. Use the filters to narrow by family, note, gender or price.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="filters">
+    <div class="wrap">
+      <div class="filter-row">
+        <label class="filter-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg>
+          <input type="search" placeholder="Search a name or note" aria-label="Search the library" data-shop-search>
+        </label>
+        <div class="family-chips" data-family-chips></div>
+        <span class="filter-spacer"></span>
+        <select class="select" aria-label="Gender" data-shop-gender>
+          <option value="All">All genders</option>
+          <option value="Men">For him</option>
+          <option value="Women">For her</option>
+        </select>
+        <select class="select" aria-label="Price" data-shop-price>
+          <option value="All">Any price</option>
+          <option value="under15">Under $15</option>
+          <option value="15to25">$15 to $24.99</option>
+          <option value="25to35">$25 to $34.99</option>
+          <option value="35plus">$35 and up</option>
+        </select>
+        <select class="select" aria-label="Sort" data-shop-sort>
+          <option value="featured">Featured</option>
+          <option value="name">Name, A to Z</option>
+          <option value="price-asc">Price, low to high</option>
+          <option value="price-desc">Price, high to low</option>
+        </select>
+        <span class="shop-count" data-shop-count></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="shop-body">
+    <div class="wrap">
+      <div class="shop-grid" data-shop-grid></div>
+    </div>
+  </div>
+</main>
+
+<div id="chrome-bottom"></div>
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
